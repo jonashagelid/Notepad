@@ -1,0 +1,18 @@
+﻿<Application x:Class="Notepad.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Notepad"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Light Mode Resources (default) -->
+        <SolidColorBrush x:Key="BackgroundColorBrush" Color="White"/>
+        <SolidColorBrush x:Key="WindowColorBrush" Color="White"/>
+        <SolidColorBrush x:Key="ForegroundColorBrush" Color="Black"/>
+        
+
+        <!-- Dark Mode Resources -->
+        <SolidColorBrush x:Key="DarkBackgroundColorBrush" Color="#282c34"/>
+        <SolidColorBrush x:Key="DarkWindowColorBrush" Color="#282f44"/>
+        <SolidColorBrush x:Key="DarkForegroundColorBrush" Color="#e5e5e5"/>
+    </Application.Resources>
+</Application>
